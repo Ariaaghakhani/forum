@@ -1,0 +1,57 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    @font-face {
+        font-family: "Fira Sans", sans-serif;
+        src: url(../fonts/Fira_Sans/FiraSans-Regular.ttf);
+    }
+    width: 100%;
+    font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+
+    .material-symbols-outlined {
+        font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 48;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    main.material-symbols-outlined {
+        font-variation-settings:
+            'FILL' 0,
+            'wght' 700,
+            'GRAD' 0,
+            'opsz' 48;
+        font-size: 28px;
+        // font-weight: 700;
+    }
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+
+
